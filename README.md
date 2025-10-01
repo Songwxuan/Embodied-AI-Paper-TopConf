@@ -9,8 +9,14 @@
 
 [08/05/2025] We are updating Embodied AI papers accepted by ICCV2025!
 
+[09/30/2025] We are updating Embodied AI papers accepted by CORL2025!
+
 
 ## 📖 Paper List
+
+- [📖 CORL2025](#corl2025)
+  - [Vision-Language-Action Model](#vision-language-action-model)
+  - [World Model](#world-model)
 - [📖 ICCV2025](#iccv2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
   - [Vision-Language-Navigation Model](#vision-language-navigation-model)
@@ -44,7 +50,134 @@
   - [Sim2real and Real2sim](#sim2real-and-real2sim)
 - [📖 ICRA2025](#icra2025)
 
+# CORL2025
 
+## Vision-Language-Action Model
+- **$\pi_{0.5}$**: a Vision-Language-Action Model with Open-World Generalization [Paper](https://arxiv.org/abs/2504.16054) [page](https://www.pi.website/blog/pi05)
+- Training Strategies for Efficient Embodied Reasoning[Paper](https://arxiv.org/abs/2505.08243) [page](https://ecot-lite.github.io/)
+- **Long-VLA**: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation [Paper](https://arxiv.org/abs/2508.19958) [page](https://long-vla.github.io/)
+- **RoboMonkey**: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2506.17811) [page](https://robomonkey-vla.github.io/)
+- **RoboChemist**: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation [Paper](https://arxiv.org/pdf/2509.08820) [page](https://zzongzheng0918.github.io/RoboChemist.github.io/)
+- **TA-VLA**: Elucidating the Design Space of Torque-aware Vision-Language-Action Models [Paper](https://arxiv.org/abs/2509.07962) [page](https://zzongzheng0918.github.io/Torque-Aware-VLA.github.io/)
+- **Focusing on What Matters**: Object-Agent-centric Tokenization for Vision Language Action models [Paper](https://openreview.net/forum?id=Ict1OjU9gl#discussion) 
+- **FLOWER**: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies [Paper](https://arxiv.org/abs/2509.04996) [page](https://intuitive-robots.github.io/flower_vla/)
+- Mechanistic Interpretability for Steering Vision-Language-Action Models [Paper](https://arxiv.org/pdf/2509.00328) 
+- **RICL**: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action Models [Paper](https://arxiv.org/abs/2508.02062) [page](https://ricl-vla.github.io/)
+- **DexVLA**: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control [Paper](https://arxiv.org/abs/2502.05855) [page](https://github.com/juruobenruo/DexVLA)
+- **FLARE**: Robot Learning with Implicit World Modeling [Paper](https://arxiv.org/abs/2505.15659) [page](https://research.nvidia.com/labs/gear/flare/)
+- **3DS-VLA**: A 3D Spatial-Aware Vision Language Action Model for Robust Multi-Task Manipulation [Paper](https://openreview.net/forum?id=dT45OMevL5#discussion) 
+- **GraspVLA**: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data [Paper](https://arxiv.org/abs/2505.03233) [page](https://pku-epic.github.io/GraspVLA-web/)
+- **EndoVLA**: Dual-Phase Vision-Language-Action for Precise Autonomous Tracking in Endoscopy [Paper](https://arxiv.org/abs/2505.15206) 
+- **MoTo**: A Zero-shot Plug-in Interaction-aware Navigation for General Mobile Manipulation [Paper](https://arxiv.org/abs/2509.01658) [page](https://gary3410.github.io/MoTo/)
+- **ControlVLA**: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models [Paper](https://arxiv.org/pdf/2506.16211) [page](https://controlvla.github.io/)
+- **TrackVLA**: Embodied Visual Tracking in the Wild [Paper](https://arxiv.org/abs/2505.23189) [page](https://pku-epic.github.io/TrackVLA-web/)
+- **AnyPlace**: Learning Generalizable Object Placement for Robot Manipulation [Paper](https://arxiv.org/abs/2502.04531) [page](https://any-place.github.io/)
+- Generalist Robot Manipulation beyond Action Labeled Data [Paper](https://arxiv.org/pdf/2509.19958) [page](https://motovla.github.io/)
+- **LaVA-Man**: Learning Visual Action Representations for Robot Manipulation [Paper](https://arxiv.org/abs/2508.19391) [page](https://qm-ipalab.github.io/LaVA-Man/)
+## Navigation
+- **MoTo**: A Zero-shot Plug-in Interaction-aware Navigation for General Mobile Manipulation 
+- Meta-Optimization and Program Search using Language Models for Task and Motion Planning 
+- **ObjectReact**: Learning Object-Relative Control for Visual Navigation
+- **HALO**: Human Preference Aligned Offline Reward Learning for Robot Navigation
+- Imagine, Verify, Execute: Memory-guided Agentic Exploration with Vision-Language Models
+- **Long Range Navigator (LRN)**: Extending robot planning horizons beyond metric maps
+- **Search-TTA**: A Multi-Modal Test-Time Adaptation Framework for Visual Search in the Wild
+- **ActLoc**: Learning to Localize on the Move via Active Viewpoint Selection
+- Human-like Navigation in a World Built for Humans
+- **GC-VLN**: Instruction as Graph Constraints for Training-free Vision-and-Language Navigation
+- **GraspMolmo**: Generalizable Task-Oriented Grasping via Large-Scale Synthetic Data Generation
+- **Belief-Conditioned One-Step Diffusion**: Real-Time Trajectory Planning with Just-Enough Sensing
+## Policy
+- **ImMimic**: Cross-Domain Imitation from Human Videos via Mapping and Interpolation [Paper](https://arxiv.org/abs/2509.10952) [page](https://sites.google.com/view/immimic)
+- **ReWiND**: Language-Guided Rewards Teach Robot Policies without New Demonstrations [Paper](https://arxiv.org/abs/2505.10911) [page](https://rewind-reward.github.io/)
+- Steering Your Diffusion Policy with Latent Space Reinforcement Learning [Paper](https://arxiv.org/abs/2506.15799) [page](https://diffusion-steering.github.io/)
+- **Streaming Flow Policy**: Simplifying diffusion/flow-matching policies by treating action trajectories as flow trajectories [Paper](https://arxiv.org/abs/2505.21851) [page](https://siddancha.github.io/streaming-flow-policy/)
+- **SAIL**: Faster-than-Demonstration Execution of Imitation Learning Policies [Paper](https://arxiv.org/abs/2506.11948) [page](https://nadunranawaka1.github.io/sail-policy/)
+- Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance [Paper](https://arxiv.org/abs/2509.03889) [page](https://mhtippur.github.io/inairclothmanipulation/)
+- Data Retrieval with Importance Weights for Few-Shot Imitation Learning [Paper](https://arxiv.org/pdf/2509.01657) [page](https://rahulschand.github.io/iwr/)
+- **X-Sim**: Cross-Embodiment Learning via Real-to-Sim-to-Real [Paper](https://arxiv.org/abs/2505.07096) 
+- **DemoSpeedup**: Accelerating Visuomotor Policies via Entropy-Guided Demonstration Acceleration [Paper](https://arxiv.org/abs/2506.05064) [page](https://demospeedup.github.io/)
+- **ManiFlow**: A General Robot Manipulation Policy via Consistency Flow Training [Paper](https://arxiv.org/abs/2509.01819) [page](https://maniflow-policy.github.io/)
+- **Text2Touch**: Tactile In-Hand Manipulation with LLM-Designed Reward Functions [Paper](https://arxiv.org/abs/2509.07445) [page](https://hpfield.github.io/text2touch-website/)
+- **Multi-Loco**: Unifying Multi-Embodiment Legged Locomotion via Reinforcement Learning Augmented Diffusion [Paper](https://arxiv.org/abs/2506.11470) [page](https://mops-tamp.github.io/)
+- $\texttt{SPIN}$: distilling $\texttt{Skill-RRT}$ for long-horizon prehensile and non-prehensile manipulation [Paper](https://arxiv.org/abs/2502.18015) 
+- Imitation Learning Based on Disentangled Representation Learning of Behavioral Characteristics [Paper](https://arxiv.org/abs/2509.04737) 
+- Constraint-Preserving Data Generation for One-Shot Visuomotor Policy Generalization [Paper](https://arxiv.org/pdf/2508.03944) [page](https://cp-gen.github.io/)
+- **CLASS**: Contrastive Learning via Action Sequence Supervision for Robot Manipulation [Paper](https://arxiv.org/abs/2508.01600) [page](https://class-robot.github.io/)
+- **MirrorDuo**: Reflection-Consistent Visuomotor Learning from Mirrored Demonstration Pairs [page](https://github.com/zheyu-zhuang/mirror-duo?tab=readme-ov-file)
+- Dynamics-Compliant Trajectory Diffusion for Super-Nominal Payload Manipulation [Paper](https://arxiv.org/abs/2508.21375)
+- **Eye, Robot**: Learning to Look to Act with a BC-RL Perception-Action Loop [Paper](https://arxiv.org/abs/2506.10968) [page](https://www.eyerobot.net/)
+- **ARCH**: Hierarchical Hybrid Learning for Long-Horizon Contact-Rich Robotic Assembly [Paper](https://arxiv.org/abs/2409.16451) [page](https://long-horizon-assembly.github.io/)
+- **KDPE**: A Kernel Density Estimation Strategy for Diffusion Policy Trajectory Selection [Paper](https://arxiv.org/pdf/2508.10511) [page](https://hsp-iit.github.io/KDPE/)
+- **AimBot**: A Simple Auxiliary Visual Cue to Enhance Spatial Awareness of Visuomotor Policies [Paper](https://arxiv.org/abs/2508.08113) [page](https://aimbot-reticle.github.io/)
+- Enabling Long(er) Horizon Imitation for Manipulation Tasks by Modeling Subgoal Transitions 
+- **Mobi-$\pi$**: Mobilizing Your Robot Learning Policy [Paper](https://arxiv.org/abs/2505.23692) [page](https://mobipi.github.io/)
+- Action-Free Reasoning for Policy Generalization [Paper](https://arxiv.org/abs/2502.03729) [page](https://rad-generalization.github.io/)
+- **Learn from What We HAVE**: History-Aware VErifier that Reasons about Past Interactions Online [Paper](https://arxiv.org/abs/2509.00271v1) [page](https://liy1shu.github.io/HAVE_CoRL25/)
+- **D-CODA**: Diffusion for Coordinated Dual-Arm Data Augmentation [Paper](https://arxiv.org/abs/2505.04860) [page](https://dcodaaug.github.io/D-CODA/)
+- **ATK**: Automatic Task-driven Keypoint Selection for Robust Policy Learning [Paper](https://arxiv.org/abs/2506.13867) [page](https://yunchuzhang.github.io/ATK/)
+- **Poke and Strike**: Learning Task-Informed Exploration Policies [Paper](https://arxiv.org/abs/2509.00178) [page](https://marina-aoyama.github.io/poke-and-strike/)
+- **SafeBimanual**: Diffusion-based trajectory optimization for safe bimanual manipulation [Paper](https://arxiv.org/abs/2508.18268) [page](https://denghaoyuan123.github.io/SafeBimanip/)
+- **COMBO-Grasp**: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping [Paper](https://arxiv.org/abs/2502.08054) 
+- **Phantom**: Training Robots Without Robots Using Only Human Videos [Paper](https://arxiv.org/abs/2503.00779) [page](https://phantom-human-videos.github.io/)
+- Learning Long-Context Diffusion Policies via Past-Token Prediction [Paper](https://openreview.net/forum?id=N4WWF8Les5) 
+- **VT-Refine**: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning [Paper](https://openreview.net/forum?id=mV3W5givYb) 
+- **COLLAGE**: Adaptive Fusion-based Retrieval for Augmented Policy Learning [Paper](https://arxiv.org/abs/2508.01131) [page](https://robin-lab.cs.utexas.edu/COLLAGE/)
+- **CDP**: Towards Robust Autoregressive Visuomotor Policy Learning via Causal Diffusion [Paper](https://arxiv.org/abs/2506.14769) [page](https://gaavama.github.io/CDP/)
+- Robust Dexterous Grasping of General Objects [Paper](https://arxiv.org/abs/2504.05287) [page](https://zdchan.github.io/Robust_DexGrasp/)
+- **Point Policy**: Unifying Observations and Actions with Key Points for Robot Manipulation [Paper](https://arxiv.org/abs/2502.20391) [page](https://point-policy.github.io/)
+## Benchmark and Dataset
+- **RoboArena**: Distributed Real-World Evaluation of Generalist Robot Policies
+- **GraspVLA**: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data 
+- **CUPID**: Curating Data your Robot Loves with Influence 
+- **AutoEval**: Autonomous Evaluation of Generalist Robot Manipulation Policies in the Real World
+- **ManipBench**: Benchmarking Vision-Language Models for Low-Level Robot Manipulation Functions
+- Ensuring Force Safety in Vision-Guided Robotic Manipulation via Implicit Tactile Calibration
+- Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration
+- **UniSkill**: Imitating Human Videos via Cross-Embodiment Skill Representations
+
+## Humanoid
+- **HuB**: Learning Extreme Humanoid Balance
+- Versatile Loco-Manipulation through Flexible Interlimb Coordination
+- Visual Imitation Enables Contextual Humanoid Control
+- **Hand-Eye Autonomous Delivery**: Learning Humanoid Navigation, Locomotion and Reaching
+- **CLONE**: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks 
+- **Embrace Contacts**: humanoid shadowing with full body ground contacts
+- **Hold My Beer**: Learning Gentle Humanoid Locomotion and End-Effector Stabilization Control
+- **SLAC**: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL
+- **Robot Trains Robot**: Automatic Real-World Policy Adaptation and Learning for Humanoids
+- Humanoid Policy ~ Human Policy
+## World Model
+- **Real2Render2Real**: Scaling Robot Data Without Dynamics Simulation or Robot Hardware
+- Cross-Sensor Touch Generation
+- **WoMAP**: World Models For Embodied Open-Vocabulary Object Localization
+- **DreamGen**: Unlocking Generalization in Robot Learning through Video World Models
+- **Tool-as-Interface**: Learning Robot Policies from Observing Human Tool Use
+- Articulated Object Estimation in the Wild
+- **DiWA**: Diffusion Policy Adaptation with World Models
+- Steerable Scene Generation with Post Training and Inference-Time Search
+- Generative Visual Foresight Meets Task-Agnostic Pose Estimation in Robotic Table-top Manipulation
+- **Gen2Act**: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+- **Reflective Planning**: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation
+- **LaDi-WM**: A Latent Diffusion-Based World Model for Predictive Manipulation
+## Dexterous Manipulation
+- **DexUMI**: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
+- **Dexplore**: Scalable Neural Control for Dexterous Manipulation from Reference Scoped Exploration
+- **FFHFlow**: Diverse and Uncertainty-Aware Dexterous Grasp Generation via Flow Variational Inference
+- **GraspQP**: Differentiable Optimization of Force Closure for Diverse and Robust Dexterous Grasping
+- Morphologically Symmetric Reinforcement Learning for Ambidextrous Bimanual Manipulation
+- **KineDex**: Learning Tactile-Informed Visuomotor Policies via Kinesthetic Teaching for Dexterous Manipulation
+- **D-Cubed**: Latent Diffusion Trajectory Optimisation for Dexterous Deformable Manipulation
+- **LodeStar**: Long-horizon Dexterity via Synthetic Data Augmentation from Human Demonstrations 
+## Sim-to-Real
+- **The Sound of Simulation**: Learning Multimodal Sim-to-Real Robot Policies with Generative Audio
+- **FetchBot**: Learning Generalizable Object Fetching in Cluttered Scenes via Zero-Shot Sim2Real
+- **ClutterDexGrasp**: A Sim-to-Real System for General Dexterous Grasping in Cluttered Scenes
+- **SimShear**: Sim-to-Real Shear-based Tactile Servoing
+- **Wheeled Lab**: Modern Sim2Real for Low-cost, Open-source Wheeled Robotics
+- Articulate AnyMesh: Open-vocabulary 3D Articulated Objects Modeling
+- **AgentWorld**: An Interactive Simulation Platform for Scene Construction and Mobile Robotic Manipulation
+- Robot Learning from Any Images
 # ICCV2025
 
 ## Vision-Language-Action Model
