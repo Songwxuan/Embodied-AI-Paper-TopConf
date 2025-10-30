@@ -1,5 +1,5 @@
 # Embodied-AI-Paper-TopConf
-🔥ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 Embodied AI Paper List  Resources.
+🔥CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 Embodied AI Paper List  Resources.
 
 [03/22/2025] We plan to organize more papers on Embodied AI from top conferences in the future and build a more comprehensive paper list. If there are any conference papers you would like to browse or if you have any other suggestions, please feel free to leave an issue.
 
@@ -17,6 +17,12 @@
 - [📖 CORL2025](#corl2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
   - [World Model](#world-model)
+  - [Policy](#policy)
+  - [Humanoid](#humanoid)
+  - [Navigation](#navigation)
+  - [Benchmark and Dataset](#benchmark-and-dataset)
+  - [Dexterous Manipulation](dexterous-manipulation)
+  - [Sim-to-Real](#sim-to-real)
 - [📖 ICCV2025](#iccv2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
   - [Vision-Language-Navigation Model](#vision-language-navigation-model)
@@ -53,6 +59,7 @@
 # CORL2025
 
 ## Vision-Language-Action Model
+
 - **$\pi_{0.5}$**: a Vision-Language-Action Model with Open-World Generalization [Paper](https://arxiv.org/abs/2504.16054) [page](https://www.pi.website/blog/pi05)
 - Training Strategies for Efficient Embodied Reasoning[Paper](https://arxiv.org/abs/2505.08243) [page](https://ecot-lite.github.io/)
 - **Long-VLA**: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation [Paper](https://arxiv.org/abs/2508.19958) [page](https://long-vla.github.io/)
@@ -74,7 +81,9 @@
 - **AnyPlace**: Learning Generalizable Object Placement for Robot Manipulation [Paper](https://arxiv.org/abs/2502.04531) [page](https://any-place.github.io/)
 - Generalist Robot Manipulation beyond Action Labeled Data [Paper](https://arxiv.org/pdf/2509.19958) [page](https://motovla.github.io/)
 - **LaVA-Man**: Learning Visual Action Representations for Robot Manipulation [Paper](https://arxiv.org/abs/2508.19391) [page](https://qm-ipalab.github.io/LaVA-Man/)
+
 ## Navigation
+
 - **MoTo**: A Zero-shot Plug-in Interaction-aware Navigation for General Mobile Manipulation 
 - Meta-Optimization and Program Search using Language Models for Task and Motion Planning 
 - **ObjectReact**: Learning Object-Relative Control for Visual Navigation
@@ -88,6 +97,7 @@
 - **GraspMolmo**: Generalizable Task-Oriented Grasping via Large-Scale Synthetic Data Generation
 - **Belief-Conditioned One-Step Diffusion**: Real-Time Trajectory Planning with Just-Enough Sensing
 ## Policy
+
 - **ImMimic**: Cross-Domain Imitation from Human Videos via Mapping and Interpolation [Paper](https://arxiv.org/abs/2509.10952) [page](https://sites.google.com/view/immimic)
 - **ReWiND**: Language-Guided Rewards Teach Robot Policies without New Demonstrations [Paper](https://arxiv.org/abs/2505.10911) [page](https://rewind-reward.github.io/)
 - Steering Your Diffusion Policy with Latent Space Reinforcement Learning [Paper](https://arxiv.org/abs/2506.15799) [page](https://diffusion-steering.github.io/)
@@ -127,6 +137,7 @@
 - Robust Dexterous Grasping of General Objects [Paper](https://arxiv.org/abs/2504.05287) [page](https://zdchan.github.io/Robust_DexGrasp/)
 - **Point Policy**: Unifying Observations and Actions with Key Points for Robot Manipulation [Paper](https://arxiv.org/abs/2502.20391) [page](https://point-policy.github.io/)
 ## Benchmark and Dataset
+
 - **RoboArena**: Distributed Real-World Evaluation of Generalist Robot Policies
 - **GraspVLA**: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data 
 - **CUPID**: Curating Data your Robot Loves with Influence 
@@ -135,8 +146,8 @@
 - Ensuring Force Safety in Vision-Guided Robotic Manipulation via Implicit Tactile Calibration
 - Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration
 - **UniSkill**: Imitating Human Videos via Cross-Embodiment Skill Representations
-
 ## Humanoid
+
 - **HuB**: Learning Extreme Humanoid Balance
 - Versatile Loco-Manipulation through Flexible Interlimb Coordination
 - Visual Imitation Enables Contextual Humanoid Control
@@ -148,6 +159,7 @@
 - **Robot Trains Robot**: Automatic Real-World Policy Adaptation and Learning for Humanoids
 - Humanoid Policy ~ Human Policy
 ## World Model
+
 - **Real2Render2Real**: Scaling Robot Data Without Dynamics Simulation or Robot Hardware
 - Cross-Sensor Touch Generation
 - **WoMAP**: World Models For Embodied Open-Vocabulary Object Localization
@@ -161,15 +173,17 @@
 - **Reflective Planning**: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation
 - **LaDi-WM**: A Latent Diffusion-Based World Model for Predictive Manipulation
 ## Dexterous Manipulation
-- **DexUMI**: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
+
+- **DexUMI**: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation [page](https://dex-umi.github.io/)
 - **Dexplore**: Scalable Neural Control for Dexterous Manipulation from Reference Scoped Exploration
 - **FFHFlow**: Diverse and Uncertainty-Aware Dexterous Grasp Generation via Flow Variational Inference
-- **GraspQP**: Differentiable Optimization of Force Closure for Diverse and Robust Dexterous Grasping
+- **GraspQP**: Differentiable Optimization of Force Closure for Diverse and Robust Dexterous Grasping [page](https://graspqp.github.io/)
 - Morphologically Symmetric Reinforcement Learning for Ambidextrous Bimanual Manipulation
 - **KineDex**: Learning Tactile-Informed Visuomotor Policies via Kinesthetic Teaching for Dexterous Manipulation
 - **D-Cubed**: Latent Diffusion Trajectory Optimisation for Dexterous Deformable Manipulation
 - **LodeStar**: Long-horizon Dexterity via Synthetic Data Augmentation from Human Demonstrations 
 ## Sim-to-Real
+
 - **The Sound of Simulation**: Learning Multimodal Sim-to-Real Robot Policies with Generative Audio
 - **FetchBot**: Learning Generalizable Object Fetching in Cluttered Scenes via Zero-Shot Sim2Real
 - **ClutterDexGrasp**: A Sim-to-Real System for General Dexterous Grasping in Cluttered Scenes
@@ -272,7 +286,8 @@
 - **EmbodiedBench**: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents [paper](https://arxiv.org/abs/2502.09560) [page](https://embodiedbench.github.io/)
 - Learning Policy Committees for Effective Personalization in MDPs with Diverse Tasks [paper](https://arxiv.org/abs/2503.01885)
 - Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations [paper](https://arxiv.org/abs/2412.14803) [page](https://video-prediction-policy.github.io/)
-
+- **STAR**: Learning Diverse Robot Skill Abstractions through Rotation-Augmented [paper](https://www.arxiv.org/pdf/2506.03863) [page](https://github.com/JiuTian-VL/STAR?tab=readme-ov-file)
+ VectorQuantization
 ## 3D Vision
 - Unifying 2D and 3D Vision-Language Understanding [paper](https://arxiv.org/abs/2503.10745) [page](https://univlg.github.io/)
 - GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model [paper](https://arxiv.org/abs/2505.04119) [page](https://github.com/zhoujiahuan1991/ICML2025-GAPrompt)
