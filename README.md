@@ -287,7 +287,6 @@
 - Learning Policy Committees for Effective Personalization in MDPs with Diverse Tasks [paper](https://arxiv.org/abs/2503.01885)
 - Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations [paper](https://arxiv.org/abs/2412.14803) [page](https://video-prediction-policy.github.io/)
 - **STAR**: Learning Diverse Robot Skill Abstractions through Rotation-Augmented [paper](https://www.arxiv.org/pdf/2506.03863) [page](https://github.com/JiuTian-VL/STAR?tab=readme-ov-file)
- VectorQuantization
 ## 3D Vision
 - Unifying 2D and 3D Vision-Language Understanding [paper](https://arxiv.org/abs/2503.10745) [page](https://univlg.github.io/)
 - GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model [paper](https://arxiv.org/abs/2505.04119) [page](https://github.com/zhoujiahuan1991/ICML2025-GAPrompt)
