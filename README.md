@@ -21,9 +21,7 @@
   - [Planning and Reasoning](#planning-and-reasoning)
   - [Navigation](#navigation)
   - [Humanoid](#humanoid)
-  - [Autonomous Drving](#autonomous-driving)
   - [3D Vision](#3d-vision)
-  - [Latent Action Model](#latent-action-model)
   - [Policy](#policy)
   - [Accelerating and Deploying](#accelerating-and-deploying)
   - [Tactile](#tactile)
@@ -108,7 +106,6 @@
 - **SAMPO**: Scale-wise Autoregression with Motion Prompt for Generative World Models [Paper](https://arxiv.org/abs/2509.15536)
 - Learning 3D Persistent Embodied World Models [Paper](https://arxiv.org/abs/2505.05495)
 - **OSVI-WM**: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation [Paper](https://arxiv.org/abs/2505.20425)
-- **Raw2Drive**: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving (in CARLA v2) [Paper](https://arxiv.org/abs/2505.16394)
 
 ## Planning and Reasoning
 - **Tru-POMDP**: Task Planning Under Uncertainty via Tree of Hypotheses and Open-Ended POMDPs [Paper](https://arxiv.org/abs/2506.02860)
@@ -119,7 +116,6 @@
 - **COOPERA**: Continual Open-Ended Human-Robot Assistance [Paper](https://arxiv.org/abs/2510.23495) [Page](https://dannymcy.github.io/coopera/)
 - **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning [Paper](https://arxiv.org/abs/2507.16815) [Page](https://jasper0314-huang.github.io/thinkact-vla/)
 - **UniDomain**: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning [Paper](https://arxiv.org/abs/2507.21545)
-- Tree-Guided Diffusion Planner [Paper](https://arxiv.org/abs/2508.21800) [Page](https://tree-diffusion-planner.github.io/)
 - InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning
 
 ## Navigation
@@ -138,37 +134,10 @@
 - From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots [Paper](https://arxiv.org/abs/2506.12779) [Page](https://beingbeyond.github.io/BumbleBee/)
 - **KungfuBot**: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills [Paper](https://kungfu-bot.github.io/) [Page](https://arxiv.org/abs/2506.12851)
 
-## Multi-Agent
-- CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems [Paper](https://arxiv.org/abs/2502.17821)
-- Reinventing Multi-Agent Collaboration through Gaussian-Image Synergy in Diffusion Policies [Paper](https://arxiv.org/abs/2511.00998)
-
-## Autonomous Driving
-- **GaussianFusion**: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving [Paper](https://arxiv.org/abs/2506.00034)
-- Model-Based Policy Adaptation for Closed-Loop End-to-end Autonomous Driving
-- Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling [Paper](https://arxiv.org/abs/2510.11083)
-- Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation [Paper](https://arxiv.org/abs/2506.09485)
-- **CoC-VLA**: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via
-Chain-of-Causality Visual-Language-Action Model [Paper](https://arxiv.org/abs/2511.19914)
-- **DiffE2E**: Rethinking End-to-End Driving with a Hybrid Diffusion-Regression-Classification Policy [Paper](https://arxiv.org/abs/2505.19516) [Page](https://infinidrive.github.io/DiffE2E/)
-- **TopoPoint**: Enhance Topology Reasoning via Endpoint Detection in Autonomous Driving [Paper](https://arxiv.org/pdf/2505.17771)
-- **AutoVLA**: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning [Paper](https://arxiv.org/abs/2506.13757) [Page](https://autovla.github.io/)
-- **HCRMP**: An LLM-Hinted Contextual Reinforcement Learning Framework for Autonomous Driving [Paper](https://arxiv.org/abs/2505.15793)
-- **DriveDPO**: Policy Learning via Safety DPO For End-to-End Autonomous Driving
-- Embodied Cognition Augmented End2End Autonomous Driving [Paper](https://arxiv.org/abs/2511.01334)
-- **UniMotion**: A Unified Motion Framework for Simulation, Prediction and Planning
-- **RLGF**: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation [Paper](https://arxiv.org/abs/2509.16500)
-- **ReSim**: Reliable World Simulation for Autonomous Driving [Paper](https://arxiv.org/abs/2506.09981) [Page](https://opendrivelab.com/ReSim)
-- **SDTagNet**: Leveraging Text-Annotated Navigation Maps for Online HD Map Construction [Paper](https://arxiv.org/abs/2506.08997) [Page](https://immel-f.github.io/SDTagNet/)
-
 ## 3D Vision
 - **DynaRend**: Learning 3D Dynamics via Masked Future Rendering for Robotic Manipulation [Paper](https://arxiv.org/abs/2510.24261)
 - Building 3D Representations and Generating Motions From a Single Image via Video-Generation [Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118141)
 - Dynamic Focused Masking for Autoregressive Embodied Occupancy Prediction 
-- 3D Equivariant Visuomotor Policy Learning via Spherical Projection [Paper](https://arxiv.org/abs/2505.16969) [Page](https://isp-3d.github.io/)
-- Understanding while Exploring: Semantics-driven Active Mapping [Paper](https://arxiv.org/abs/2506.00225)
-
-## Latent Action Model
-- What Do Latent Action Models Actually Learn? [Paper](https://arxiv.org/abs/2506.15691)
 
 ## Policy
 - Emerging Risks from Embodied AI Require Urgent Policy Action
@@ -214,7 +183,6 @@ Chain-of-Causality Visual-Language-Action Model [Paper](https://arxiv.org/abs/25
 - **LabUtopia**: High-Fidelity Simulation and Hierarchical Benchmark for Scientific Embodied Agents [Paper](https://arxiv.org/abs/2505.22634) [Page](https://rui-li023.github.io/labutopia-site/)
 - **SonoGym**: High Performance Simulation for Challenging Surgical Tasks with Robotic Ultrasound [Paper](https://arxiv.org/abs/2507.01152) [Page](https://github.com/SonoGym/SonoGym)
 - Embodied Crowd Counting
-- **VIKI‑R**: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning [Paper](https://arxiv.org/abs/2506.09049) [Page](https://faceong.github.io/VIKI-R/)
 - **PAC Bench**: Do Foundation Models Understand Prerequisites for Executing Manipulation Policies? [Paper](https://arxiv.org/abs/2506.23725)
 
 ## Sim-to-Real
