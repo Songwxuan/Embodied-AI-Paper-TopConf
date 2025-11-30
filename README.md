@@ -1,5 +1,5 @@
 # Embodied-AI-Paper-TopConf
-🔥CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 Embodied AI Paper List  Resources.
+🔥 NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 Embodied AI Paper List  Resources.
 
 [03/22/2025] We plan to organize more papers on Embodied AI from top conferences in the future and build a more comprehensive paper list. If there are any conference papers you would like to browse or if you have any other suggestions, please feel free to leave an issue.
 
@@ -11,6 +11,7 @@
 
 [09/30/2025] We are updating Embodied AI papers accepted by CORL2025!
 
+[11/30/2025] We are updating Embodied AI papers accepted by NeuIPS2025!
 
 ## 📖 Paper List
 
