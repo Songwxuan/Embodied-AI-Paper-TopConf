@@ -17,6 +17,7 @@
 
 - [📖 NeuIPS2025](#neuips2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
+  - [Data](#data)
   - [World Model](#world-model)
   - [Planning and Reasoning](#planning-and-reasoning)
   - [Navigation](#navigation)
@@ -27,7 +28,6 @@
   - [Tactile](#tactile)
   - [Dexterous](#dexterous)
   - [Benchmark and Dataset](##benchmark-and-dataset)
-  - [Sim-to-Real](#sim-to-real)
 - [📖 CORL2025](#corl2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
   - [World Model](#world-model)
@@ -81,12 +81,13 @@
 - Exploring the Limits of Vision-Language-Action Manipulation in Cross-task Generalization [Paper](https://arxiv.org/abs/2505.15660) [Page](https://jiaming-zhou.github.io/AGNOSTOS/)
 - **BadVLA**: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization [Paper](https://arxiv.org/abs/2505.16640) [Page](https://github.com/Zxy-MLlab/BadVLA)
 - **Compliant Residual DAgger**: Improving Real-World Contact-Rich Manipulation with Human Corrections [Paper](https://arxiv.org/abs/2506.16685) [Page](https://compliant-residual-dagger.github.io/)
+- **VLA-OS**: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models [Paper](https://arxiv.org/abs/2506.17561) [Page](https://nus-lins-lab.github.io/vlaos/)
+- **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning [Paper](https://arxiv.org/abs/2507.16815) [Page](https://jasper0314-huang.github.io/thinkact-vla/)
 - Self-Improving Embodied Foundation Models [Paper](https://arxiv.org/abs/2509.15155) [Page](https://self-improving-efms.github.io/)
 - **Robo2VLM**: Improving Visual Question Answering using Large-Scale Robot Manipulation Data [Paper](https://arxiv.org/abs/2505.15517) [Page](https://berkeleyautomation.github.io/robo2vlm/)
 - **EnerVerse**: Envisioning Embodied Future Space for Robotics Manipulation [Paper](https://arxiv.org/abs/2501.01895)
 - Learning Spatial-Aware Manipulation Ordering [Paper](https://arxiv.org/abs/2510.25138)
 - **PRIMT**: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models [Paper](https://arxiv.org/abs/2509.15607)
-- **VLA-Cache**: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching [Paper](https://arxiv.org/abs/2502.02175) [Page](https://vla-cache.github.io/)
 - **BEAST**: Efficient Tokenization of B-Splines Encoded Action Sequences for Imitation Learning [Paper](https://arxiv.org/abs/2506.06072)
 - **PointMapPolicy**: Structured Point Cloud Processing for Multi-Modal Imitation Learning [Paper](https://arxiv.org/abs/2510.20406)
 - Real-Time Execution of Action Chunking Flow Policies [Paper](https://www.physicalintelligence.company/download/real_time_chunking.pdf) [Page](https://www.physicalintelligence.company/research/real_time_chunking)
@@ -94,13 +95,17 @@
 - **4D-VLA**: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration
 - **SAFE**: Multitask Failure Detection for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2506.09937) [Page](https://vla-safe.github.io/)
 - Blindfolded Experts Generalize Better: Insights from Robotic Manipulation and Videogames [Paper](https://arxiv.org/abs/2510.24194) [Page](https://sites.google.com/view/blindfoldedexperts/home)
-- *HiMaCon:* Discovering Hierarchical Manipulation Concepts from Unlabeled Multi-Modal Data [Paper](https://arxiv.org/abs/2510.11321)
-- **EgoBridge**: Domain Adaptation for Generalizable Imitation from Egocentric Human Data [Paper](https://arxiv.org/abs/2509.19626) [Page](https://ego-bridge.github.io/)
-- **RobotSmith**: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skill [Paper](https://arxiv.org/abs/2506.14763) [Page](https://umass-embodied-agi.github.io/RobotSmith/)
+- **HiMaCon:** Discovering Hierarchical Manipulation Concepts from Unlabeled Multi-Modal Data [Paper](https://arxiv.org/abs/2510.11321)
 - Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better [Paper](https://arxiv.org/abs/2505.23705)
-- **URDF-Anything**: Constructing Articulated Objects with 3D Multimodal Language Model [Paper](https://arxiv.org/abs/2511.00940)
 - Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents [Paper](https://arxiv.org/abs/2502.01218) [Page](https://actol-pretrain.github.io/)
 - **DreamVLA**: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge [Paper](https://arxiv.org/abs/2507.04447) [Page](https://zhangwenyao1.github.io/DreamVLA/index.html)
+
+## Data
+- **EgoBridge**: Domain Adaptation for Generalizable Imitation from Egocentric Human Data [Paper](https://arxiv.org/abs/2509.19626) [Page](https://ego-bridge.github.io/)
+- **RobotSmith**: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skill [Paper](https://arxiv.org/abs/2506.14763) [Page](https://umass-embodied-agi.github.io/RobotSmith/)
+- **URDF-Anything**: Constructing Articulated Objects with 3D Multimodal Language Model [Paper](https://arxiv.org/abs/2511.00940)
+- **DEAL**: Diffusion Evolution Adversarial Learning for Sim-to-Real Transfer
+- Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training [Paper](https://arxiv.org/abs/2509.18631) [Page](https://ot-sim2real.github.io/)
 
 ## World Model
 - **SAMPO**: Scale-wise Autoregression with Motion Prompt for Generative World Models [Paper](https://arxiv.org/abs/2509.15536)
@@ -108,13 +113,9 @@
 - **OSVI-WM**: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation [Paper](https://arxiv.org/abs/2505.20425)
 
 ## Planning and Reasoning
-- **Tru-POMDP**: Task Planning Under Uncertainty via Tree of Hypotheses and Open-Ended POMDPs [Paper](https://arxiv.org/abs/2506.02860)
-- **VLA-OS**: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models [Paper](https://arxiv.org/abs/2506.17561) [Page](https://nus-lins-lab.github.io/vlaos/)
 - Towards Reliable LLM-based Robots Planning via Combined Uncertainty Estimation [Paper](https://arxiv.org/abs/2510.08044)
 - **Towards Reliable Code-as-Policies**: A Neuro-Symbolic Framework for Embodied Task Planning [Paper](https://arxiv.org/abs/2510.21302)
 - **RDD**: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks [Paper](https://arxiv.org/abs/2510.14968) [Page](https://rdd-neurips.github.io/)
-- **COOPERA**: Continual Open-Ended Human-Robot Assistance [Paper](https://arxiv.org/abs/2510.23495) [Page](https://dannymcy.github.io/coopera/)
-- **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning [Paper](https://arxiv.org/abs/2507.16815) [Page](https://jasper0314-huang.github.io/thinkact-vla/)
 - **UniDomain**: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning [Paper](https://arxiv.org/abs/2507.21545)
 - InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning
 
@@ -126,8 +127,6 @@
 - **Aux-Think**: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation  
 - **EfficientNav**: Towards On-Device Object-Goal Navigation with Navigation Map Caching and Retrieval [Paper](https://arxiv.org/abs/2510.18546)
 - **Seeing through Uncertainty**: Robust Task-Oriented Optimization in Visual Navigation [Paper](https://arxiv.org/abs/2510.00441) [Page](https://github.com/PyyWill/NeuRO)
-- **C-NAV**: Towards Self-Evolving Continual Object Navigation in Open World [Paper](https://arxiv.org/abs/2510.20685) [Page](https://arxiv.org/abs/2510.20685)
-
 
 ## Humanoid
 - Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning [Paper](https://arxiv.org/abs/2504.14305) [Page](https://almi-humanoid.github.io/)
@@ -137,7 +136,6 @@
 ## 3D Vision
 - **DynaRend**: Learning 3D Dynamics via Masked Future Rendering for Robotic Manipulation [Paper](https://arxiv.org/abs/2510.24261)
 - Building 3D Representations and Generating Motions From a Single Image via Video-Generation [Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118141)
-- Dynamic Focused Masking for Autoregressive Embodied Occupancy Prediction 
 
 ## Policy
 - Emerging Risks from Embodied AI Require Urgent Policy Action
@@ -160,6 +158,7 @@
 - Accelerating Visual-Policy Learning through Parallel Differentiable Simulation [Paper](https://www.arxiv.org/abs/2505.10646) [Page](https://haoxiangyou.github.io/Dva_website/)
 - **EfficientVLA**: Training-Free Acceleration and Compression for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2506.10100)
 - A Smooth Sea Never Made a Skilled SAILOR: Robust Imitation via Learning to Search [Paper](https://arxiv.org/abs/2506.05294) [Page](https://gokul.dev/sailor/)
+- **VLA-Cache**: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching [Paper](https://arxiv.org/abs/2502.02175) [Page](https://vla-cache.github.io/)
 
 ## Tactile
 - Universal Visuo-Tactile Video Understanding for Embodied Interaction [Paper](https://arxiv.org/abs/2505.22566)
@@ -184,10 +183,6 @@
 - **SonoGym**: High Performance Simulation for Challenging Surgical Tasks with Robotic Ultrasound [Paper](https://arxiv.org/abs/2507.01152) [Page](https://github.com/SonoGym/SonoGym)
 - Embodied Crowd Counting
 - **PAC Bench**: Do Foundation Models Understand Prerequisites for Executing Manipulation Policies? [Paper](https://arxiv.org/abs/2506.23725)
-
-## Sim-to-Real
-- **DEAL**: Diffusion Evolution Adversarial Learning for Sim-to-Real Transfer
-- Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training [Paper](https://arxiv.org/abs/2509.18631) [Page](https://ot-sim2real.github.io/)
 
 # CORL2025
 
