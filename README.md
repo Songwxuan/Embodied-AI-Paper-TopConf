@@ -1,5 +1,5 @@
 # Embodied-AI-Paper-TopConf
-🔥 NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 &amp; **ICLR2026** Embodied AI Paper List  Resources.
+🔥 NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 &amp; **ICML2026** &amp; **ICLR2026** Embodied AI Paper List  Resources.
 
 [03/22/2025] We plan to organize more papers on Embodied AI from top conferences in the future and build a more comprehensive paper list. If there are any conference papers you would like to browse or if you have any other suggestions, please feel free to leave an issue.
 
@@ -15,9 +15,11 @@
 
 [03/12/2026] We are updating Embodied AI papers accepted by ICLR2026! ([📖 ICLR2026](ICLR/ICLR2026.md))
 
+[05/18/2026] We are updating Embodied AI papers accepted by ICML2026!
+
 ## 📖 Paper List
 
-- [📖 ICLR2026](#iclr2026)
+- [📖 ICML2026](#icml2026)
   - [Vision-Language-Action Models](#vision-language-action-models-1)
   - [Vision-Language-Navigation Models](#vision-language-navigation-models)
   - [World Models](#world-models)
@@ -31,6 +33,20 @@
   - [Sim2real and Real2sim](#sim2real-and-real2sim-1)
   - [Benchmark and Dataset](#benchmark-and-dataset)
   - [Other](#other)
+- [📖 ICLR2026](#iclr2026)
+  - [Vision-Language-Action Models](#vision-language-action-models-2)
+  - [Vision-Language-Navigation Models](#vision-language-navigation-models-1)
+  - [World Models](#world-models-1)
+  - [Planning and Reasoning](#planning-and-reasoning-2)
+  - [Navigation](#navigation-1)
+  - [Humanoid](#humanoid-1)
+  - [3D Vision](#3d-vision-2)
+  - [Policy](#policy-1)
+  - [Dexterous Manipulation](#dexterous-manipulation-1)
+  - [Tactile](#tactile-1)
+  - [Sim2real and Real2sim](#sim2real-and-real2sim-2)
+  - [Benchmark and Dataset](#benchmark-and-dataset-1)
+  - [Other](#other-1)
 - [📖 NeuIPS2025](#neuips2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
   - [Data](#data)
@@ -86,6 +102,109 @@
   - [Sim2real and Real2sim](#sim2real-and-real2sim)
 - [📖 ICRA2025](#icra2025)
 
+
+# ICML2026
+
+## Vision-Language-Action Models
+
+- HALO: A Unified Vision-Language-Action Model for Embodied Multimodal Chain-of-Thought Reasoning [Paper](https://icml.cc/virtual/2026/poster/61922)
+- Vision-Language-Action Pretraining from Large-Scale Human Videos [Paper](https://icml.cc/virtual/2026/poster/62813)
+- RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation [Paper](https://icml.cc/virtual/2026/poster/60980)
+- HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control [Paper](https://icml.cc/virtual/2026/poster/60897)
+- A Generalist Pair-wise Progress Critic Model for Vision-Language-Action Robots [Paper](https://icml.cc/virtual/2026/poster/62270)
+- Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting [Paper](https://icml.cc/virtual/2026/poster/62528)
+- Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies [Paper](https://icml.cc/virtual/2026/poster/62902)
+- DyGRO-VLA: Cross-Task Scaling of Vision-Language-Action Models via Dynamic Grouped Residual Optimization [Paper](https://icml.cc/virtual/2026/poster/60681)
+- Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models [Paper](https://icml.cc/virtual/2026/poster/64290)
+- HIER: Human-in-the-Loop Imagination-Execution Refinement for General Real-World Vision-Language-Action Models [Paper](https://icml.cc/virtual/2026/poster/62918)
+- LARA: Latent Action Representation Alignment for Vision-Language-Action Models [Paper](https://icml.cc/virtual/2026/poster/61232)
+- From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model [Paper](https://icml.cc/virtual/2026/poster/66596)
+- From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges [Paper](https://icml.cc/virtual/2026/poster/62908)
+- Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery [Paper](https://icml.cc/virtual/2026/poster/61750)
+- VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model [Paper](https://icml.cc/virtual/2026/poster/61157)
+- SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models [Paper](https://icml.cc/virtual/2026/poster/66066)
+- Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action [Paper](https://icml.cc/virtual/2026/poster/66214)
+- NeurVLA: Unleashing Failure-Handling Capability of Vision-Language-Action Models via Neural-Symbolic Reasoning [Paper](https://icml.cc/virtual/2026/poster/63650)
+- LaST$_{0}$: Latent Spatio-Temporal Chain-of-Thought for Robotic Vision-Language-Action Model [Paper](https://icml.cc/virtual/2026/poster/61887)
+- XR-1: Towards Versatile Vision-Language-Action Models via Learning Unified Vision-Motion Representations [Paper](https://icml.cc/virtual/2026/poster/64826)
+
+## Vision-Language-Navigation Models
+
+- AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation [Paper](https://icml.cc/virtual/2026/poster/61535)
+- Instruction Decomposition and Action Alignment for Vision-Language Navigation [Paper](https://icml.cc/virtual/2026/poster/64780)
+- MapDream: Task-Driven Map Learning for Vision-Language Navigation [Paper](https://icml.cc/virtual/2026/poster/64902)
+- SC$^{2}$-WM: A Self-Correcting World Model with Closed-Loop Feedback for Vision-and-Language Navigation in Continuous Environments [Paper](https://icml.cc/virtual/2026/poster/64257)
+
+## World Models
+
+- Cross-Embodiment Robot Foundation World Models with Latent Actions [Paper](https://icml.cc/virtual/2026/poster/63978)
+- DDP-WM: Disentangled Dynamics Prediction for Efficient World Models [Paper](https://icml.cc/virtual/2026/poster/62480)
+- DreamDojo: A Real-Time Robot World Model from Large-Scale Human Videos [Paper](https://icml.cc/virtual/2026/poster/65193)
+- RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation [Paper](https://icml.cc/virtual/2026/poster/62543)
+- Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action Model [Paper](https://icml.cc/virtual/2026/poster/64447)
+- From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation [Paper](https://icml.cc/virtual/2026/poster/66091)
+- Learning Task-Sufficient World Models by Synergizing Agentic Exploration and Structured Modeling [Paper](https://icml.cc/virtual/2026/poster/64209)
+- VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model [Paper](https://icml.cc/virtual/2026/poster/66169)
+
+## Planning and Reasoning
+
+- LAGEA: Language Guided Embodied Agents for Robotic Manipulation [Paper](https://icml.cc/virtual/2026/poster/60801)
+- TapSampling: Inference-Time Sampling with a Task-Progress-Understanding Verifier for Robotic Manipulation [Paper](https://icml.cc/virtual/2026/poster/60500)
+- Decompose and Recompose: Reasoning New Skills from Existing Abilities for Cross-Task Robotic Manipulation [Paper](https://icml.cc/virtual/2026/poster/63250)
+- Drift is a Sampling Error: SNR-Aware Power Distributions for Long-Horizon Robotic Planning [Paper](https://icml.cc/virtual/2026/poster/64055)
+- Can VLMs Diagnose and Recover from VLA Manipulation Faults? [Paper](https://icml.cc/virtual/2026/poster/64203)
+
+## Navigation
+
+- TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments [Paper](https://icml.cc/virtual/2026/poster/65809)
+- Hydra-Nav: Object Navigation via Adaptive Dual-Process Reasoning [Paper](https://icml.cc/virtual/2026/poster/61357)
+- Plan in Sandbox, Navigate in Open Worlds: Learning Physics-Grounded Abstracted Experience for Embodied Navigation [Paper](https://icml.cc/virtual/2026/poster/63554)
+- SafeDec: Constrained Decoding for Safe Autoregressive Generalist Robot Navigation Policies [Paper](https://icml.cc/virtual/2026/poster/60775)
+
+## Humanoid
+
+- Scalable and General Whole-Body Control for Cross-Humanoid Locomotion [Paper](https://icml.cc/virtual/2026/poster/62003)
+- Learning Transferable Interaction Primitives from Game Videos for Humanoids [Paper](https://icml.cc/virtual/2026/poster/65120)
+
+## 3D Vision
+
+- Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds [Paper](https://icml.cc/virtual/2026/poster/60472)
+
+## Policy
+
+- STEP: Warm-Started Visuomotor Policies with Spatiotemporal Consistency Prediction [Paper](https://icml.cc/virtual/2026/poster/61717)
+- Demystifying Action Space Design for Robotic Manipulation Policies [Paper](https://icml.cc/virtual/2026/poster/65967)
+- Escaping the Diversity Trap in Robotic Manipulation via Anchor-Centric Adaptation [Paper](https://icml.cc/virtual/2026/poster/66510)
+- FocalPolicy: Frequency-Optimized Chunking and Locally Anchored Flow Matching for Coherent Visuomotor Policy [Paper](https://icml.cc/virtual/2026/poster/66520)
+- GeoMoLa: Geometry-Aware Motion Latents for Learning Robust Manipulation Policies [Paper](https://icml.cc/virtual/2026/poster/62176)
+- Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization [Paper](https://icml.cc/virtual/2026/poster/61049)
+- PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation [Paper](https://icml.cc/virtual/2026/poster/62679)
+- Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models [Paper](https://icml.cc/virtual/2026/poster/63997)
+
+## Dexterous Manipulation
+
+- DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation [Paper](https://icml.cc/virtual/2026/poster/63277)
+- DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter [Paper](https://icml.cc/virtual/2026/poster/66358)
+
+## Tactile
+
+- Cross-Tactile Sensor Representation Learning [Paper](https://icml.cc/virtual/2026/poster/66793)
+- Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language [Paper](https://icml.cc/virtual/2026/poster/65669)
+
+## Sim2real and Real2sim
+
+## Benchmark and Dataset
+
+- AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation [Paper](https://icml.cc/virtual/2026/poster/64411)
+- DLO-Lab: Benchmarking Deformable Linear Object Manipulations with Differentiable Physics [Paper](https://icml.cc/virtual/2026/poster/63391)
+- FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects [Paper](https://icml.cc/virtual/2026/poster/66662)
+- ManiSoft: Towards Vision-Language Manipulation for Soft Robotics [Paper](https://icml.cc/virtual/2026/poster/63416)
+- SafeLab: An Interactive High-Fidelity Benchmark for Embodied Safety in Scientific Robotics [Paper](https://icml.cc/virtual/2026/poster/61584)
+- Dismantling the Illusion of Vision-Language-Action Models Competence via Explicit Distributional Shifts [Paper](https://icml.cc/virtual/2026/poster/64080)
+- OXE-AugE: A Large-Scale Robot Augmentation of OXE for Scaling Cross-Embodiment Policy Learning [Paper](https://icml.cc/virtual/2026/poster/64619)
+- RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation [Paper](https://icml.cc/virtual/2026/poster/62192)
+
+## Other
 
 # ICLR2026
 
