@@ -23,11 +23,6 @@
 
 ## 📖 Paper List
 
-- [📖 CVPR2026](#cvpr2026)
-  - [Vision-Language-Action Models](#vision-language-action-models)
-  - [Robot Learning and Policy](#robot-learning-and-policy)
-  - [Embodied Navigation, Planning and Simulation](#embodied-navigation-planning-and-simulation)
-  - [Benchmark and Dataset](#benchmark-and-dataset)
 - [ICML2026](#icml2026)
   - [Vision-Language-Action Models](#vision-language-action-models)
   - [Vision-Language-Navigation Models](#vision-language-navigation-models)
@@ -39,6 +34,11 @@
   - [Policy](#policy)
   - [Dexterous Manipulation](#dexterous-manipulation)
   - [Tactile](#tactile)
+  - [Benchmark and Dataset](#benchmark-and-dataset)
+- [📖 CVPR2026](#cvpr2026)
+  - [Vision-Language-Action Models](#vision-language-action-models)
+  - [Robot Learning and Policy](#robot-learning-and-policy)
+  - [Embodied Navigation, Planning and Simulation](#embodied-navigation-planning-and-simulation)
   - [Benchmark and Dataset](#benchmark-and-dataset)
 - [ICLR2026](#iclr2026)
   - [Vision-Language-Action Models](#vision-language-action-models-1)
