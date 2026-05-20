@@ -1,5 +1,7 @@
 # Embodied-AI-Paper-TopConf
-🔥 NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025  &amp; ICLR2026 &amp; ICML2026 Embodied AI Paper List  Resources.
+
+🔥 CVPR2026 &amp; ICLR2026 &amp; NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 Embodied AI Paper List  Resources.
+
 
 [03/22/2025] We plan to organize more papers on Embodied AI from top conferences in the future and build a more comprehensive paper list. If there are any conference papers you would like to browse or if you have any other suggestions, please feel free to leave an issue.
 
@@ -17,8 +19,15 @@
 
 [05/18/2026] We are updating Embodied AI papers accepted by ICML2026!
 
+[05/18/2026] We are updating Embodied AI papers accepted by CVPR2026!
+
 ## 📖 Paper List
 
+- [📖 CVPR2026](#cvpr2026)
+  - [Vision-Language-Action Models](#vision-language-action-models)
+  - [Robot Learning and Policy](#robot-learning-and-policy)
+  - [Embodied Navigation, Planning and Simulation](#embodied-navigation-planning-and-simulation)
+  - [Benchmark and Dataset](#benchmark-and-dataset)
 - [ICML2026](#icml2026)
   - [Vision-Language-Action Models](#vision-language-action-models)
   - [Vision-Language-Navigation Models](#vision-language-navigation-models)
@@ -202,6 +211,40 @@
 - Dismantling the Illusion of Vision-Language-Action Models Competence via Explicit Distributional Shifts [Paper](https://icml.cc/virtual/2026/poster/64080)
 - OXE-AugE: A Large-Scale Robot Augmentation of OXE for Scaling Cross-Embodiment Policy Learning [Paper](https://icml.cc/virtual/2026/poster/64619)
 - RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation [Paper](https://icml.cc/virtual/2026/poster/62192)
+
+# CVPR2026
+
+## Vision-Language-Action Models
+
+- **ACoT-VLA**: Action Chain-of-Thought for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2601.11404) [Code](https://github.com/AgibotTech/ACoT-VLA)
+- **Evo-1**: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment [Paper](https://arxiv.org/abs/2511.04555) [Code](https://github.com/MINT-SJTU/Evo-1)
+- **HiF-VLA**: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2512.09928) [Page](https://hifvla.github.io/)
+- **SaPaVe**: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics [Paper](https://arxiv.org/abs/2603.12193) [Page](https://lmzpai.github.io/SaPaVe)
+- **OptimusVLA**: Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model for Efficient Robotic Manipulation [Paper](https://arxiv.org/abs/2602.20200) [Code](https://github.com/JiuTian-VL/OptimusVLA)
+- **SRPO**: Self-Referential Policy Optimization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2511.15605)
+- Adaptive Action Chunking at Inference-time for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2604.04161) [Page](https://lance-lot.github.io/adaptive-chunking.github.io/)
+- **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning [Paper](https://arxiv.org/abs/2601.09708) [Page](https://research.nvidia.com/labs/twn/publication/cvpr_2026_fastthinkact/)
+- **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
+- **CoWVLA**: Chain of World: World Model Thinking in Latent Motion [Paper](https://arxiv.org/abs/2603.03195) [Page](https://fx-hit.github.io/cowvla-io/)
+- **QuantVLA**: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2602.20309) [Page](https://quantvla.github.io/)
+- **UniDex**: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos [Paper](https://arxiv.org/abs/2603.22264) [Page](https://unidex-ai.github.io/) [Code](https://github.com/unidex-ai/UniDex)
+
+## Robot Learning and Policy
+
+- **GeCo-SRT**: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer [Paper](https://arxiv.org/abs/2602.20871) [Page](https://namelesscrew.github.io/)
+- Contact-Aware Neural Dynamics [Paper](https://arxiv.org/abs/2601.12796) [Page](https://changwei-jing.github.io/neural-physics/)
+- **VIRAL**: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation [Paper](https://arxiv.org/abs/2511.15200) [Page](https://viral-humanoid.github.io/) [Code](https://github.com/NVlabs/VIRAL)
+
+## Embodied Navigation, Planning and Simulation
+
+- **GLMap**: Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning [Paper](https://arxiv.org/abs/2605.01736) [Code](https://github.com/sx-zhang/GLMap)
+- **Wanderland**: Geometrically Grounded Simulation for Open-World Embodied AI [Paper](https://arxiv.org/abs/2511.20620) [Page](https://ai4ce.github.io/wanderland/)
+- **SpaceTools**: Tool-Augmented Spatial Reasoning via Double Interactive RL [Paper](https://arxiv.org/abs/2512.04069) [Page](https://spacetools.github.io/)
+- Dexterous World Models [Paper](https://arxiv.org/abs/2512.17907) [Page](https://snuvclab.github.io/dwm/) [Code](https://github.com/snuvclab/dwm)
+
+## Benchmark and Dataset
+
+- **LIBERO-Plus**: In-depth Robustness Analysis of Vision-Language-Action Models [Paper](https://arxiv.org/abs/2510.13626) [Page](https://huggingface.co/papers/2510.13626)
 
 # ICLR2026
 
